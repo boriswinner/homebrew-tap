@@ -1,9 +1,9 @@
 class UvcdvCapture < Formula
   desc "Lossless MiniDV capture over USB (UVC DV payload) — no FireWire needed"
   homepage "https://github.com/boriswinner/uvcdv-capture"
-  url "https://github.com/boriswinner/uvcdv-capture/archive/refs/tags/v1.5.0.tar.gz"
-  sha256 "0555c096daee39e97ad888eeec7240ea5c08d81af1e85acea3fca9d35a90e32b"
-  license "MIT"
+  url "https://github.com/boriswinner/uvcdv-capture/archive/refs/tags/v1.6.0.tar.gz"
+  sha256 "a82c232f833a6abab31ab5228d921d9e15e8b9af2a3a711e8c376ea270dd27e2"
+  license "GPL-3.0-or-later"
 
   depends_on "libusb"
   depends_on "pkg-config" => :build
